@@ -1,0 +1,27 @@
+{
+  "name": "sentiment_api",
+  "version": "1.0.0",
+  "description": "The Sentiment Analysis API is an AI-powered API that analyzes the sentiment of text input and provides a sentiment score indicating whether the text is positive, negative, or neutral.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anonymousMornach/Sentiment_Api.git"
+  },
+  "keywords": [
+    "Sentiment"
+  ],
+  "author": "Mornach",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anonymousMornach/Sentiment_Api/issues"
+  },
+  "homepage": "https://github.com/anonymousMornach/Sentiment_Api#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "natural": "^6.3.0"
+  }
+}
