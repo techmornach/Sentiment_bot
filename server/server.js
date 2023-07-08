@@ -17,7 +17,7 @@ app.use(cors()); // Enable CORS
 // Serve static files from the build directory
 app.use(express.static(path.join(__dirname, '../client/build')));
 app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, '../client/build/ixndex.html'));
+  res.sendFile(path.join(__dirname, '../client/build/index.html'));
 });
 app.post("/analyze-sentiment", (req, res) => {
   const { text } = req.body;
