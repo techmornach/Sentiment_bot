@@ -2,6 +2,10 @@
 
 The Sentiment Bot Client is a React application that allows users to input text and analyze its sentiment using the Sentiment Analysis API.
 
+## Demo <a name="demo"></a>
+
+![Sentiment Demo](https://i.ibb.co/TH4cDYs/Screenshot-2023-07-08-at-11-53-47.png)
+
 ## Getting Started
 
 These instructions will help you set up and run the Sentiment Bot Client on your local machine.
