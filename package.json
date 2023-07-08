@@ -1,0 +1,16 @@
+{
+  "name": "sentiment_api",
+  "version": "1.0.0",
+  "description": "The Sentiment Analysis API is an AI-powered API that analyzes the sentiment of text input and provides a sentiment score indicating whether the text is positive, negative, or neutral.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "cd ./client && npm i && npm run build && cd ../server && npm i",
+    "start": "node ./server/server.js"
+  },
+  "keywords": [
+    "Sentiment"
+  ],
+  "author": "Mornach",
+  "license": "ISC"
+}
